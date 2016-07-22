@@ -194,7 +194,7 @@ Limitations
 -----------
 
 In some cases a change will trigger a warning in another line. Those cases are
-unfortunately not handled by git-lint, as it only reports those lines taht were
+unfortunately not handled by git-lint, as it only reports those lines that were
 modified. Fully supporting this use case would require to run the linters twice
 and report only the new lines. The most common case in which this occurs is with
 unused imports or variables. Let's say we have the following piece of code::
